@@ -1,0 +1,204 @@
+2023/11/13 20:53:17.246939 Created session
+2023/11/13 20:53:22.881567 Created session
+2023/11/13 20:54:06.042672 Created session
+2023/11/13 20:56:26.377290 Created session
+2023/11/13 20:56:27.000412 Connecting to: 127.0.0.1:5001
+2023/11/13 20:56:27.000680 Sending logon request
+2023/11/13 20:56:27.003439 Received logon response
+2023/11/13 21:03:12.966058 Inititated logout request
+2023/11/13 21:03:12.974585 Received logout response
+2023/11/13 21:03:12.974597 Disconnected
+2023/11/13 21:03:20.298567 Created session
+2023/11/13 21:03:21.000854 Connecting to: 127.0.0.1:5001
+2023/11/13 21:03:21.001140 Sending logon request
+2023/11/13 21:03:21.004911 Received logon response
+2023/11/13 21:03:29.974157 Inititated logout request
+2023/11/13 21:03:29.977164 Received logout response
+2023/11/13 21:03:29.977176 Disconnected
+2023/11/13 22:54:45.905224 Created session
+2023/11/13 22:54:46.001105 Connecting to: 127.0.0.1:5001
+2023/11/13 22:54:46.001718 Sending logon request
+2023/11/13 22:54:46.012972 Received logon response
+2023/11/13 22:56:50.949837 Inititated logout request
+2023/11/13 22:56:50.954461 Received logout response
+2023/11/13 22:56:50.954472 Disconnected
+2023/11/13 22:56:53.568883 Created session
+2023/11/13 22:56:54.001025 Connecting to: 127.0.0.1:5001
+2023/11/13 22:56:54.001363 Sending logon request
+2023/11/13 22:56:54.003546 Received logon response
+2023/11/13 22:58:50.139650 Inititated logout request
+2023/11/13 22:58:50.144529 Received logout response
+2023/11/13 22:58:50.144538 Disconnected
+2023/11/13 22:58:53.237023 Created session
+2023/11/13 22:58:54.000309 Connecting to: 127.0.0.1:5001
+2023/11/13 22:58:54.001045 Sending logon request
+2023/11/13 22:58:54.006573 Received logon response
+2023/11/13 22:59:36.063925 Received logout request
+2023/11/13 22:59:36.063963 Sending logout response
+2023/11/13 22:59:36.064089 Disconnected
+2023/11/13 22:59:36.064321 Reconnecting in 30s
+2023/11/13 22:59:46.054422 Created session
+2023/11/13 22:59:47.000197 Connecting to: 127.0.0.1:5001
+2023/11/13 22:59:47.001040 Sending logon request
+2023/11/13 22:59:47.010354 Received logon response
+2023/11/13 23:11:40.306769 Created session
+2023/11/13 23:11:41.000056 Connecting to: 127.0.0.1:5001
+2023/11/13 23:11:41.000833 Sending logon request
+2023/11/13 23:11:41.009982 Received logon response
+2023/11/13 23:11:50.554441 Inititated logout request
+2023/11/13 23:11:50.558285 Received logout response
+2023/11/13 23:11:50.558293 Disconnected
+2023/11/13 23:12:40.031262 Created session
+2023/11/13 23:12:41.000506 Connecting to: 127.0.0.1:5001
+2023/11/13 23:12:41.001177 Sending logon request
+2023/11/13 23:12:41.006954 Received logon response
+2023/11/13 23:12:41.012477 Received ResendRequest FROM: 1 TO: 0
+2023/11/13 23:12:41.012680 Resending Message: 1
+2023/11/13 23:12:41.013017 Sent SequenceReset TO: 3
+2023/11/13 23:14:39.859886 Inititated logout request
+2023/11/13 23:14:39.865164 Received logout response
+2023/11/13 23:14:39.865175 Disconnected
+2023/11/13 23:16:51.630036 Created session
+2023/11/13 23:16:52.001172 Connecting to: 127.0.0.1:5001
+2023/11/13 23:16:52.001857 Sending logon request
+2023/11/13 23:16:52.007377 Received logon response
+2023/11/14 15:29:39.901227 Inititated logout request
+2023/11/14 15:29:39.910691 Received logout response
+2023/11/14 15:29:39.910717 Disconnected
+2023/11/14 17:08:13.712719 write tcp 127.0.0.1:45810->127.0.0.1:5001: write: broken pipe
+2023/11/14 17:08:13.719552 Inititated logout request
+2023/11/14 17:08:13.719599 write tcp 127.0.0.1:45810->127.0.0.1:5001: write: broken pipe
+2023/11/14 17:08:13.719672 Message Rejected: SendingTime accuracy problem
+2023/11/14 17:08:13.719712 Inititated logout request
+2023/11/14 17:08:13.719772 Message Rejected: SendingTime accuracy problem
+2023/11/14 17:08:13.719817 Inititated logout request
+2023/11/14 17:08:13.720395 Message Rejected: SendingTime accuracy problem
+2023/11/14 17:08:13.720443 Inititated logout request
+2023/11/14 17:08:13.720453 Disconnected
+2023/11/14 17:57:09.482922 Created session
+2023/11/14 17:57:10.001101 Connecting to: 127.0.0.1:5001
+2023/11/14 17:57:10.001682 Sending logon request
+2023/11/14 17:57:10.008660 Received logon response
+2023/11/14 17:57:38.010906 Inititated logout request
+2023/11/14 17:57:38.013171 Received logout response
+2023/11/14 17:57:38.013178 Disconnected
+2023/11/14 17:58:00.478422 Created session
+2023/11/14 17:58:01.000322 Connecting to: 127.0.0.1:5001
+2023/11/14 17:58:01.000784 Sending logon request
+2023/11/14 17:58:01.003871 Received logon response
+2023/11/14 17:58:01.006209 Received ResendRequest FROM: 1 TO: 0
+2023/11/14 17:58:01.006292 Resending Message: 1
+2023/11/14 17:58:01.006460 Sent SequenceReset TO: 3
+2023/11/14 18:06:17.044793 Inititated logout request
+2023/11/14 18:06:17.050456 Received logout response
+2023/11/14 18:06:17.050491 Disconnected
+2023/11/14 18:06:38.687119 Created session
+2023/11/14 18:06:39.001007 Connecting to: 127.0.0.1:5001
+2023/11/14 18:06:39.001898 Sending logon request
+2023/11/14 18:06:39.009360 Received logon response
+2023/11/14 18:07:21.151781 Inititated logout request
+2023/11/14 18:07:21.157520 Received logout response
+2023/11/14 18:07:21.157556 Disconnected
+2023/11/14 18:09:11.503227 Created session
+2023/11/14 18:09:12.000129 Connecting to: 127.0.0.1:5001
+2023/11/14 18:09:12.000452 Sending logon request
+2023/11/14 18:09:12.003232 Received logon response
+2023/11/14 18:14:01.295503 Inititated logout request
+2023/11/14 18:14:01.304569 Received logout response
+2023/11/14 18:14:01.304605 Disconnected
+2023/11/14 18:14:16.704763 Created session
+2023/11/14 18:14:17.000989 Connecting to: 127.0.0.1:5001
+2023/11/14 18:14:17.001606 Sending logon request
+2023/11/14 18:14:17.009589 Received logon response
+2023/11/14 18:14:24.319936 Inititated logout request
+2023/11/14 18:14:24.327288 Received logout response
+2023/11/14 18:14:24.327319 Disconnected
+2023/11/14 18:14:30.567942 Created session
+2023/11/14 18:14:31.001027 Connecting to: 127.0.0.1:5001
+2023/11/14 18:14:31.001277 Sending logon request
+2023/11/14 18:14:31.004038 Received logon response
+2023/11/14 18:15:59.679970 Inititated logout request
+2023/11/14 18:15:59.682947 Received logout response
+2023/11/14 18:15:59.682956 Disconnected
+2023/11/14 18:16:04.604643 Created session
+2023/11/14 18:16:05.000890 Connecting to: 127.0.0.1:5001
+2023/11/14 18:16:05.001716 Sending logon request
+2023/11/14 18:16:05.006660 Received logon response
+2023/11/14 18:16:26.731226 Inititated logout request
+2023/11/14 18:16:26.736642 Received logout response
+2023/11/14 18:16:26.736653 Disconnected
+2023/11/14 18:16:55.705140 Created session
+2023/11/14 18:16:56.000307 Connecting to: 127.0.0.1:5001
+2023/11/14 18:16:56.001212 Sending logon request
+2023/11/14 18:16:56.008301 Received logon response
+2023/11/14 18:19:06.926406 Inititated logout request
+2023/11/14 18:19:06.931487 Received logout response
+2023/11/14 18:19:06.931498 Disconnected
+2023/11/14 18:19:09.171010 Created session
+2023/11/14 18:19:10.000551 Connecting to: 127.0.0.1:5001
+2023/11/14 18:19:10.001386 Sending logon request
+2023/11/14 18:19:10.008352 Received logon response
+2023/11/14 18:24:45.756871 Inititated logout request
+2023/11/14 18:24:45.765071 Received logout response
+2023/11/14 18:24:45.765106 Disconnected
+2023/11/14 18:27:16.556478 Created session
+2023/11/14 18:27:17.000573 Connecting to: 127.0.0.1:5001
+2023/11/14 18:27:17.001098 Sending logon request
+2023/11/14 18:27:17.011565 Received logon response
+2023/11/14 18:29:28.545735 Inititated logout request
+2023/11/14 18:29:28.551275 Received logout response
+2023/11/14 18:29:28.551285 Disconnected
+2023/11/14 18:29:30.998542 Created session
+2023/11/14 18:29:31.000153 Connecting to: 127.0.0.1:5001
+2023/11/14 18:29:31.000339 Sending logon request
+2023/11/14 18:29:31.003257 Received logon response
+2023/11/14 18:29:50.186241 Inititated logout request
+2023/11/14 18:29:50.193715 Received logout response
+2023/11/14 18:29:50.193739 Disconnected
+2023/11/14 18:29:54.331250 Created session
+2023/11/14 18:29:55.000267 Connecting to: 127.0.0.1:5001
+2023/11/14 18:29:55.000934 Sending logon request
+2023/11/14 18:29:55.007082 Received logon response
+2023/11/14 18:36:27.987543 Inititated logout request
+2023/11/14 18:36:27.993120 Received logout response
+2023/11/14 18:36:27.993168 Disconnected
+2023/11/14 18:36:30.142874 Created session
+2023/11/14 18:36:31.000986 Connecting to: 127.0.0.1:5001
+2023/11/14 18:36:31.001285 Sending logon request
+2023/11/14 18:36:31.004304 Received logon response
+2023/11/14 18:36:42.923209 Inititated logout request
+2023/11/14 18:36:42.928810 Received logout response
+2023/11/14 18:36:42.928835 Disconnected
+2023/11/14 18:36:53.058866 Created session
+2023/11/14 18:36:54.000376 Connecting to: 127.0.0.1:5001
+2023/11/14 18:36:54.000775 Sending logon request
+2023/11/14 18:36:54.004813 Received logon response
+2023/11/14 18:37:00.739501 Inititated logout request
+2023/11/14 18:37:00.744769 Received logout response
+2023/11/14 18:37:00.744780 Disconnected
+2023/11/14 18:38:24.185251 Created session
+2023/11/14 19:56:34.008749 Created session
+2023/11/14 19:57:26.691308 Created session
+2023/11/14 19:57:48.544153 Created session
+2023/11/14 19:58:27.431951 Created session
+2023/11/14 19:58:44.549905 Created session
+2023/11/14 20:32:31.483084 Created session
+2023/11/14 20:32:59.195750 Created session
+2023/11/14 20:33:41.984982 Created session
+2023/11/14 20:33:57.087986 Created session
+2023/11/14 20:33:58.000480 Connecting to: 127.0.0.1:5001
+2023/11/14 20:33:58.001315 Sending logon request
+2023/11/14 20:33:58.011207 Received logon response
+2023/11/14 20:34:21.001806 Inititated logout request
+2023/11/14 20:34:21.003796 Received logout response
+2023/11/14 20:34:21.003805 Disconnected
+2023/11/14 20:34:40.915957 Created session
+2023/11/14 20:34:41.000445 Connecting to: 127.0.0.1:5001
+2023/11/14 20:34:41.000948 Sending logon request
+2023/11/14 20:34:41.002743 Received logon response
+2023/11/14 20:34:41.003953 Received ResendRequest FROM: 1 TO: 0
+2023/11/14 20:34:41.004008 Resending Message: 1
+2023/11/14 20:34:41.004143 Sent SequenceReset TO: 3
+2023/11/14 20:34:44.859368 Inititated logout request
+2023/11/14 20:34:44.868032 Received logout response
+2023/11/14 20:34:44.868071 Disconnected
