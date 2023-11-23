@@ -33,8 +33,6 @@ func Fix44newordersingle(appSettings *quickfix.Settings) {
 	}(nos)
 
 	for {
-
-		utils.PrintInfo(newmsg.String())
 		senderr := quickfix.Send(newmsg)
 		time.Sleep(time.Second)
 

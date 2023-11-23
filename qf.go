@@ -25,7 +25,7 @@ func (e TradeClient) FromAdmin(msg *quickfix.Message, sessionID quickfix.Session
 }
 func (e TradeClient) ToAdmin(msg *quickfix.Message, sessionID quickfix.SessionID) {}
 func (e TradeClient) ToApp(msg *quickfix.Message, sessionID quickfix.SessionID) (err error) {
-	// utils.PrintInfo(fmt.Sprintf("Sending: %s", msg.String()))
+	utils.PrintInfo(fmt.Sprintf("Sending: %s", msg.String()))
 	return
 }
 func (e TradeClient) FromApp(msg *quickfix.Message, sessionID quickfix.SessionID) (reject quickfix.MessageRejectError) {
