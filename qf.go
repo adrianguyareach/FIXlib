@@ -95,7 +95,7 @@ func main() {
 	// go newordersingle.Fix44newordersingle()
 
 	go func() {
-		newordersingle.Fix44newordersingle(initiator, appSettings)
+		newordersingle.Fix44newordersingle(appSettings)
 	}()
 	// go func() {
 	// 	newordersingle.Fix44newordersingle(initiator)

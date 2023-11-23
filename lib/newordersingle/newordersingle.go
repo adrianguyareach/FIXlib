@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 
+	message "github.com/adrianguyareach/FIXlib/lib/message"
 	"github.com/adrianguyareach/FIXlib/lib/utils"
 	"github.com/quickfixgo/enum"
 	"github.com/quickfixgo/field"
@@ -11,7 +12,7 @@ import (
 	"github.com/quickfixgo/quickfix"
 )
 
-func Fix44newordersingle(initiator *quickfix.Initiator, appSettings *quickfix.Settings) {
+func Fix44newordersingle(appSettings *quickfix.Settings) {
 
 	var orderType field.OrdTypeField
 
@@ -23,35 +24,18 @@ func Fix44newordersingle(initiator *quickfix.Initiator, appSettings *quickfix.Se
 		orderType,
 	)
 
-	// body := newOrderSingle.ToMessage()
+	nos := message.Message{
+		Content: newOrderSingle.ToMessage(),
+	}
 
-	// SET THE FIX MESSAGE HEADER
-	// header.SetHeader(newOrderSingle.ToMessage().Header, appSettings)
-
-	// // Get sender compID
-	// senderCompID, err := header.GetString(49)
-	// if err != nil {
-	// 	utils.PrintBad(fmt.Sprintf("unable to fetch senderCompID: %s", err))
-	// }
-
-	// targetCompID, err := header.GetString(56)
-	// if err != nil {
-	// 	utils.PrintBad(fmt.Sprintf("unable to fetch targetCompID: %s", err))
-	// }
-
-	// fmt.Printf("sender: %s target: %s\n", senderCompID, targetCompID)
-	newOrderSingle.SetBeginString("FIX.4.4")
-	newOrderSingle.SetTargetCompID("ISLD")
-	newOrderSingle.SetSenderCompID("TW")
-	// newOrderSingle.Set(field.NewSenderCompID("TW"))
-	// newOrderSingle.SetField(56, field.NewTargetCompID("ISLD"))
-
-	msg := newOrderSingle.ToMessage()
+	newmsg := func(constructor message.MessageConstructor) *quickfix.Message {
+		return constructor.ConstructMessage(appSettings)
+	}(nos)
 
 	for {
 
-		utils.PrintInfo(msg.String())
-		senderr := quickfix.Send(msg)
+		utils.PrintInfo(newmsg.String())
+		senderr := quickfix.Send(newmsg)
 		time.Sleep(time.Second)
 
 		if senderr != nil {
