@@ -5,6 +5,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/adrianguyareach/FIXlib/lib/utils"
 	"github.com/quickfixgo/field"
 	"github.com/quickfixgo/quickfix"
 )
@@ -15,6 +16,10 @@ type Message struct {
 
 type MessageConstructor interface {
 	ConstructMessage(appSettings *quickfix.Settings) *quickfix.Message
+}
+
+type MessageSender interface {
+	SendMessage() error
 }
 
 func removeCharacters(input string, charsToRemove string) string {
@@ -69,4 +74,21 @@ func (m Message) ConstructMessage(appSettings *quickfix.Settings) *quickfix.Mess
 	newMsg.Trailer = m.Content.Trailer
 	return newMsg
 
+}
+
+func (m Message) SendMessage(appSettings *quickfix.Settings) error {
+	newmsg := func(constructor MessageConstructor) *quickfix.Message {
+		return constructor.ConstructMessage(appSettings)
+	}(m)
+	for {
+		senderr := quickfix.Send(newmsg)
+		time.Sleep(time.Second)
+
+		if senderr != nil {
+
+			message := fmt.Sprintf("Failure sending message: %s", senderr)
+			utils.PrintBad(message)
+		}
+
+	}
 }

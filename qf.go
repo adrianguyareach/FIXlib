@@ -9,7 +9,7 @@ import (
 	"path"
 	"syscall"
 
-	"github.com/adrianguyareach/FIXlib/lib/newordersingle"
+	"github.com/adrianguyareach/FIXlib/lib/advertisement"
 	"github.com/adrianguyareach/FIXlib/lib/utils"
 	"github.com/quickfixgo/quickfix"
 )
@@ -94,12 +94,12 @@ func main() {
 	// go
 	// go newordersingle.Fix44newordersingle()
 
-	go func() {
-		newordersingle.Fix44newordersingle(appSettings)
-	}()
 	// go func() {
-	// 	newordersingle.Fix44newordersingle(initiator)
+	// 	newordersingle.Fix44newordersingle(appSettings)
 	// }()
+	go func() {
+		advertisement.Advertisement(appSettings)
+	}()
 	// go func() {
 	// 	newordersingle.Fix44newordersingle(3)
 	// }()
